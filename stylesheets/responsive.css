@@ -1,0 +1,15 @@
+@media only screen and (min-width: 1920px) and (max-device-width: 2219px) {
+  body: {
+    width: 1920px;
+  }
+}
+@media only screen and (min-width: 1440px) and (max-device-width: 1699px) {
+  body: {
+    width: 1440px;
+  }
+}
+@media only screen and (min-width: 1280px) and (max-device-width: 1493px) {
+  body: {
+    width: 1280px;
+  }
+}
