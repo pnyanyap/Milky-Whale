@@ -1,27 +1,45 @@
 /* titul */
+/* body {
+  width: 100%;
+  height: 100%;
+} */
+.body {
+  width: 100vw;
+  height: 100vw;
 
-.titul {
-  width: 1920px;
-  height: 354px;
-  position: relative;
 }
-.titul > h1 {
-  font-size: 84px;
+.titul0 {
+  width: 100vw;
+  height: 8vw;
+  padding-top: 1vw;
+  display: flex;
+  justify-content: center;
+}
+.titul0 > h1 {
+  font-size: 4.4vw;
   color: white;
   font-family: Jura;
-  padding-left: 833px;
-  padding-top: 47px;
+  padding-left: 0vw;
+  padding-top: 1vw;
+}
+.titul {
+  width: 100vw;
+  height: 9vw;
+  padding-top: -1vw;
+  display: flex;
+  justify-content: center;
 }
 .battery {
-  width: 1322px;
-  height: 133px;
+  width: 69vw;
+  height: 7vw;
   background: url('../images/battery.png');
-  margin-top: 43px;
-  margin-left: 302px;
+  margin-top: 0vw;
+  margin-left: 0vw;
+  /* background-size: cover; */
   animation: battery 5s steps(1) infinite;
 }
 @keyframes battery {
-  0% {background-position: 0 0px;}
+  0% {background-position: 0 0vw;}
   2.2% {background-position: 0 -133px;}
   4.4% {background-position: 0 -266px;}
   6.6% {background-position: 0 -399px;}
@@ -74,40 +92,43 @@
 /* titul2 */
 
 .titul2 {
-  width: 1920px;
-  height: 1286px;
+  width: 100vw;
+  height: 69vw;
   position: relative;
 }
 
 /* pr2 */
 
 .pr2 {
-  width: 535px;
-  height: 811px;
+  width: 28vw;
+  height: 43vw;
   display: inline-block;
+  justify-content: center;
   float: right;
   background: black;
-  border: 1px solid #35F036;
+  border: 0.1vw solid #35F036;
+  /* opacity: .5; */
 }
 h3 {
-  font-size: 23px;
+  font-size: 1.2vw;
   color: white;
   font-family: Jura;
 }
 .pr2 > h3 {
-  padding-left: 33px;
-  padding-top: 23px;
+  padding-left: 2vw;
+  padding-top: 1vw;
 }
 .sphere {
-  width: 319px;
-  height: 319px;
+  width: 17vw;
+  height: 17vw;
   margin-top: 11px;
   margin-left: 111px;
 }
 .kr {
-  width: 53px;
-  height: 53px;
+  width: 2.3vw;
+  height: 2.3vw;
   background: #35F036;
+  background-size:cover;
   border-radius: 100px;
   margin-top: -254px;
   margin-left: 285px;
@@ -119,8 +140,8 @@ h3 {
   100% {opacity: 0;}
 }
 .kr2 {
-  width: 26px;
-  height: 26px;
+  width: 1.5vw;
+  height: 1.5vw;
   background: #35F036;
   border-radius: 100px;
   margin-top: 0px;
@@ -129,8 +150,8 @@ h3 {
   animation-delay: 0.4s;
 }
 .kr3 {
-  width: 16px;
-  height: 16px;
+  width: 1vw;
+  height: 1vw;
   background: #35F036;
   border-radius: 100px;
   margin-top: 70px;
@@ -138,11 +159,15 @@ h3 {
   animation: kr 0.8s linear alternate infinite;
   animation-delay: 0.8s;
 }
+.krugy {
+  width: 8vw;
+  height: 7vw;
+}
 p {
-  font-size: 30px;
+  font-size: 1.6vw;
   color: white;
   font-family: Jura;
-  margin-top: 5px;
+  margin-top: 7px;
   margin-left: 25px;
 }
 .txt3 > p:nth-of-type(1) {
@@ -235,22 +260,23 @@ p {
   100% {opacity: 1;}
 }
 .txt3 {
-  width: 490px;
-  height: 347px;
-  margin-top: 129px;
+  width: 26vw;
+  height: 15vw;
+  margin-top: 146px;
   margin-left: 9px;
 }
 
 /* pr3 */
 
 .pr3 {
-  width: 535px;
-  height: 473px;
+  width: 28vw;
+  height: 26vw;
   display: inline-block;
   float: right;
   background: black;
   border: 1px solid #35F036;
   margin-top: -1px;
+  /* opacity: .5; */
 }
 .pr3 > h3:nth-of-type(1) {
   margin-top: 14px;
@@ -297,12 +323,14 @@ p {
   margin-left: 81px;
 }
 .portal {
+  width: 18vw;
+  height: 18vw;
   margin-top: 48px;
   margin-left: 98px;
 }
 .lin {
-  width: 141px;
-  height: 2px;
+  width: 7.4vw;
+  height: 0.1vw;
   background: white;
   margin-top: -90px;
   margin-left: 101px;
@@ -345,8 +373,8 @@ p {
   50% {opacity: 1;}
 }
 .lin2 {
-  width: 100px;
-  height: 2px;
+  width: 5.2vw;
+  height: 0.1vw;
   background: white;
   margin-top: -90px;
   margin-left: 183px;
@@ -354,8 +382,8 @@ p {
   animation: lin2 8s linear infinite;
 }
 .lin3 {
-  width: 116px;
-  height: 2px;
+  width: 6vw;
+  height: 0.1vw;
   background: white;
   margin-top: -9px;
   margin-left: 277px;
@@ -363,8 +391,8 @@ p {
   animation: lin3 8s linear infinite;
 }
 .lin4 {
-  width: 82px;
-  height: 2px;
+  width: 4.3vw;
+  height: 0.1vw;
   background: white;
   margin-top: 48px;
   margin-left: 366px;
@@ -372,8 +400,8 @@ p {
   animation: lin4 8s linear infinite;
 }
 .lin5 {
-  width: 74px;
-  height: 2px;
+  width: 3.8vw;
+  height: 0.1vw;
   background: white;
   margin-top: 67px;
   margin-left: 369px;
@@ -381,8 +409,8 @@ p {
   animation: lin5 8s linear infinite;
 }
 .lin6 {
-  width: 71px;
-  height: 2px;
+  width: 3.7vw;
+  height: 0.1vw;
   background: white;
   margin-top: 6px;
   margin-left: 328px;
@@ -390,30 +418,40 @@ p {
   animation: lin6 8s linear infinite;
 }
 .lin7 {
-  width: 49px;
-  height: 2px;
+  width: 2.8vw;
+  height: 0.1vw;
   background: white;
   margin-top: -39px;
   margin-left: 333px;
   transform: rotate(147deg);
   animation: lin7 8s linear infinite;
 }
-
+.linii {
+  width: 14vw;
+  height: 8vw;
+}
 /* pr4 */
 
 .pr4 {
-  width: 1165px;
-  height: 1165px;
+  width: 60.5vw;
+  height: 62vw;
   border-radius: 1000px;
-  background: black;
+  /* background: black; */
+  background-size: cover;
+  background-position: center;
+  /* background-repeat: no-repeat; */
   display: inline-block;
   float: left;
   margin-left: 79px;
   margin-top: 25px;
 }
 .radar {
-  width: 1164px;
-  height: 1164px;
+  width: 60.5vw;
+  height: 62vw;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url('../images/radar.png');
   position: absolute;
   margin-top: 0px;
   margin-left: 0px;
@@ -424,14 +462,14 @@ p {
   100% {transform: rotate(360deg);}
 }
 .napr {
-  width: 1164px;
-  height: 1164px;
+  width: 60.5vw;
+  height: 62vw;
   position: relative;
   margin-top: 0px;
   margin-left: 0px;
 }
 .txt > p {
-  font-size: 23px;
+  font-size: 1.2vw;
   color: white;
   font-family: Jura;
   position: absolute;
@@ -457,8 +495,8 @@ p {
   animation: planet4 4s infinite;
 }
 .planet1 {
-  width: 348px;
-  height: 348px;
+  width: 16vw;
+  height: 16vw;
   position: absolute;
   top: 319px;
   left: 241px;
@@ -471,8 +509,8 @@ p {
   100% {opacity: 0;}
 }
 .planet2 {
-  width: 121px;
-  height: 121px;
+  width: 8vw;
+  height: 8vw;
   position: absolute;
   top: 408px;
   left: 718px;
@@ -487,8 +525,8 @@ p {
   100% {opacity: 0;}
 }
 .planet3 {
-  width: 193px;
-  height: 193px;
+  width: 10vw;
+  height: 10vw;
   position: absolute;
   top: 743px;
   left: 835px;
@@ -502,8 +540,8 @@ p {
   100% {opacity: 0;}
 }
 .planet4 {
-  width: 241px;
-  height: 241px;
+  width: 20vw;
+  height: 13vw;
   position: absolute;
   top: 777px;
   left: 315px;
@@ -520,16 +558,16 @@ p {
 /* titul3 */
 
 .titul3 {
-  width: 1920px;
-  height: 475px;
+  width: 100%;
+  height: 21.4%;
   position: relative;
 }
 
 /* block1 */
 
 .block1 {
-  width: 901px;
-  height: 472px;
+  width: 47%;
+  height: 99%;
   display: inline-block;
   float: left;
   background: black;
@@ -573,8 +611,8 @@ p {
 /* block2 */
 
 .block2 {
-  width: 1016px;
-  height: 472px;
+  width: 53%;
+  height: 99%;
   display: inline-block;
   float: right;
   background: black;
@@ -586,8 +624,8 @@ p {
   margin-left: 69px;
 }
 .whale {
-  width: 889px;
-  height: 244px;
+  width: 87.5%;
+  height: 51.7%;
   margin-top: 110px;
   margin-left: 67px;
   animation: whale 3s linear infinite;
@@ -603,8 +641,8 @@ p {
   animation-play-state: paused;
 }
 .o1 {
-  width: 281px;
-  height: 281px;
+  width: 27.6%;
+  height: 59.5%;
   background: #35F036;;
   border-radius: 500px;
   margin-top: -329px;
@@ -613,8 +651,8 @@ p {
   animation: o 2s linear infinite;
 }
 .o2 {
-  width: 119px;
-  height: 119px;
+  width: 11.7%;
+  height: 25.2%;
   background: #35F036;;
   border-radius: 500px;
   margin-top: -57px;
@@ -623,8 +661,8 @@ p {
   animation: o 2s linear infinite;
 }
 .o3 {
-  width: 226px;
-  height: 226px;
+  width: 22.2%;
+  height: 47.8%;
   background: #35F036;;
   border-radius: 500px;
   margin-top: -322px;
@@ -633,8 +671,8 @@ p {
   animation: o 2s linear infinite;
 }
 .o4 {
-  width: 119px;
-  height: 119px;
+  width: 11.7%;
+  height: 25.2%;
   background: #35F036;;
   border-radius: 500px;
   margin-top: -70px;
@@ -666,13 +704,13 @@ p {
 /* titul4 */
 
 .titul4 {
-  width: 1920px;
-  height: 96px;
+  width: 100%;
+  height: 4.3%;
   position: relative;
 }
 .txt4 {
-  width: 1811px;
-  height: 35px;
+  width: 94.3%;
+  height: 36.5%;
   display: flex;
   justify-content: space-between;
   position: absolute;

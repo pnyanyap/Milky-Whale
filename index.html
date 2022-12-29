@@ -2,6 +2,7 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
     <title>Milky Whale</title>
     <link rel="stylesheet" href="stylesheets/style.css">
     <style media="screen">
@@ -11,13 +12,12 @@
         height: 100%;
       }
       body {
-        width: 1920px;
-        height: 2219px;
         display: block;
         margin: 0 auto;
         position: relative;
         background: url('images/setka.svg');
-        /* background: url('../images/setka.png'); */
+        background-size: contain;
+        background-position: center top;
       }
       body::before {
        content: "";
@@ -27,18 +27,20 @@
        width:100%;
        height: 100%;
        background: url('images/maket.png');
-       opacity: 0.6;
+       opacity: 0;
       }
     </style>
   </head>
   <body>
+    <div class="titul0">
+      <h1>MILKY WHALE</h1>
+    </div>
     <div class="titul">
-      <h1>RADAR</h1>
       <div class="battery"></div>
     </div>
     <div class="titul2">
       <div class="pr4">
-        <img src="images/radar.png" alt="" class="radar">
+        <div class="radar"></div>
         <img src="images/napr.svg" alt="" class="napr">
         <img src="images/planet1.svg" alt="" class="planet1">
         <img src="images/planet2.svg" alt="" class="planet2">
@@ -54,9 +56,11 @@
       <div class="pr2">
         <h3>Тау Кита</h3>
         <img src="images/sphere.svg" alt="" class="sphere">
-        <div class="kr"></div>
-        <div class="kr2"></div>
-        <div class="kr3"></div>
+        <div class="krugy">
+          <div class="kr"></div>
+          <div class="kr2"></div>
+          <div class="kr3"></div>
+        </div>
         <div class="txt3">
           <p>Спектральный тип: G8V</p>
           <p>Цветовой индекс U–B: +0.21</p>
@@ -83,13 +87,15 @@
         <h3>-30</h3>
         <h3>-20</h3>
         <h3>-10</h3>
-        <div class="lin"></div>
-        <div class="lin2"></div>
-        <div class="lin3"></div>
-        <div class="lin4"></div>
-        <div class="lin5"></div>
-        <div class="lin6"></div>
-        <div class="lin7"></div>
+        <div class="linii">
+          <div class="lin"></div>
+          <div class="lin2"></div>
+          <div class="lin3"></div>
+          <div class="lin4"></div>
+          <div class="lin5"></div>
+          <div class="lin6"></div>
+          <div class="lin7"></div>
+        </div>
       </div>
     </div>
     <div class="titul3">
